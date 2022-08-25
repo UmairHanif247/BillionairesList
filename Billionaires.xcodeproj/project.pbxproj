@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCCFB9425C73CB015D67B5E7 /* Pods_Billionaires.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE8C209FD1A49657C2D51FA /* Pods_Billionaires.framework */; };
+		D71699C928B602650092672D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71699C828B602650092672D /* Helper.swift */; };
+		D71699CD28B756BF0092672D /* AssetsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71699CB28B756BF0092672D /* AssetsCollectionViewCell.swift */; };
+		D71699CE28B756BF0092672D /* AssetsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71699CC28B756BF0092672D /* AssetsCollectionViewCell.xib */; };
 		D7F56E4028B361AD00B58960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E3F28B361AD00B58960 /* AppDelegate.swift */; };
 		D7F56E4228B361AD00B58960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E4128B361AD00B58960 /* SceneDelegate.swift */; };
-		D7F56E4428B361AD00B58960 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E4328B361AD00B58960 /* ViewController.swift */; };
-		D7F56E4728B361AD00B58960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F56E4528B361AD00B58960 /* Main.storyboard */; };
 		D7F56E4928B361B400B58960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F56E4828B361B400B58960 /* Assets.xcassets */; };
 		D7F56E4C28B361B400B58960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F56E4A28B361B400B58960 /* LaunchScreen.storyboard */; };
+		D7F56E5828B362BC00B58960 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E5728B362BC00B58960 /* NetworkRequest.swift */; };
+		D7F56E5A28B362D600B58960 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E5928B362D600B58960 /* ObservableObject.swift */; };
+		D7F56E6028B3633E00B58960 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E5E28B3633E00B58960 /* HomeViewController.swift */; };
+		D7F56E6128B3633E00B58960 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F56E5F28B3633E00B58960 /* HomeViewController.xib */; };
+		D7F56E6328B3636000B58960 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E6228B3636000B58960 /* HomeView.swift */; };
+		D7F56E6528B363AD00B58960 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E6428B363AD00B58960 /* HomeViewModel.swift */; };
+		D7F56E6928B369F300B58960 /* BillionairesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E6828B369F300B58960 /* BillionairesDataModel.swift */; };
+		D7F56E6D28B3989100B58960 /* PersonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E6B28B3989100B58960 /* PersonsTableViewCell.swift */; };
+		D7F56E6E28B3989100B58960 /* PersonsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F56E6C28B3989100B58960 /* PersonsTableViewCell.xib */; };
+		D7F56E7728B3A5D900B58960 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E7528B3A5D900B58960 /* DetailViewController.swift */; };
+		D7F56E7828B3A5D900B58960 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F56E7628B3A5D900B58960 /* DetailViewController.xib */; };
+		D7F56E7A28B3A5E700B58960 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E7928B3A5E700B58960 /* DetailView.swift */; };
+		D7F56E7C28B3A6DE00B58960 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F56E7B28B3A6DE00B58960 /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EE8C209FD1A49657C2D51FA /* Pods_Billionaires.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Billionaires.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DEB5515690C385C3BDFF84 /* Pods-Billionaires.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billionaires.release.xcconfig"; path = "Target Support Files/Pods-Billionaires/Pods-Billionaires.release.xcconfig"; sourceTree = "<group>"; };
+		A6E20E51B2C9AFCD83484E4F /* Pods-Billionaires.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billionaires.debug.xcconfig"; path = "Target Support Files/Pods-Billionaires/Pods-Billionaires.debug.xcconfig"; sourceTree = "<group>"; };
+		D71699C828B602650092672D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D71699CB28B756BF0092672D /* AssetsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D71699CC28B756BF0092672D /* AssetsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssetsCollectionViewCell.xib; sourceTree = "<group>"; };
 		D7F56E3C28B361AD00B58960 /* Billionaires.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Billionaires.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F56E3F28B361AD00B58960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F56E4128B361AD00B58960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7F56E4328B361AD00B58960 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7F56E4628B361AD00B58960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7F56E4828B361B400B58960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F56E4B28B361B400B58960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F56E4D28B361B400B58960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F56E5728B362BC00B58960 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		D7F56E5928B362D600B58960 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		D7F56E5E28B3633E00B58960 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D7F56E5F28B3633E00B58960 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		D7F56E6228B3636000B58960 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D7F56E6428B363AD00B58960 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D7F56E6828B369F300B58960 /* BillionairesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillionairesDataModel.swift; sourceTree = "<group>"; };
+		D7F56E6B28B3989100B58960 /* PersonsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTableViewCell.swift; sourceTree = "<group>"; };
+		D7F56E6C28B3989100B58960 /* PersonsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonsTableViewCell.xib; sourceTree = "<group>"; };
+		D7F56E7528B3A5D900B58960 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D7F56E7628B3A5D900B58960 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		D7F56E7928B3A5E700B58960 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D7F56E7B28B3A6DE00B58960 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCFB9425C73CB015D67B5E7 /* Pods_Billionaires.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD8F8AF4730C5791B1010B04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6E20E51B2C9AFCD83484E4F /* Pods-Billionaires.debug.xcconfig */,
+				63DEB5515690C385C3BDFF84 /* Pods-Billionaires.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D71699C728B602480092672D /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				D71699C828B602650092672D /* Helper.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		D71699CA28B756960092672D /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D71699CB28B756BF0092672D /* AssetsCollectionViewCell.swift */,
+				D71699CC28B756BF0092672D /* AssetsCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		D71699CF28B760000092672D /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E6B28B3989100B58960 /* PersonsTableViewCell.swift */,
+				D7F56E6C28B3989100B58960 /* PersonsTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		D7F56E3328B361AD00B58960 = {
 			isa = PBXGroup;
 			children = (
 				D7F56E3E28B361AD00B58960 /* Billionaires */,
 				D7F56E3D28B361AD00B58960 /* Products */,
+				BD8F8AF4730C5791B1010B04 /* Pods */,
+				F2B3363D76001A88E0D1834F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +126,147 @@
 		D7F56E3E28B361AD00B58960 /* Billionaires */ = {
 			isa = PBXGroup;
 			children = (
-				D7F56E3F28B361AD00B58960 /* AppDelegate.swift */,
-				D7F56E4128B361AD00B58960 /* SceneDelegate.swift */,
-				D7F56E4328B361AD00B58960 /* ViewController.swift */,
-				D7F56E4528B361AD00B58960 /* Main.storyboard */,
-				D7F56E4828B361B400B58960 /* Assets.xcassets */,
+				D7F56E5628B362A900B58960 /* ObservableObject */,
+				D7F56E5528B3629E00B58960 /* Network */,
+				D7F56E6628B3673D00B58960 /* Model */,
+				D7F56E5428B3628C00B58960 /* Home */,
+				D7F56E6F28B3A58B00B58960 /* Detail */,
+				D7F56E5328B3626D00B58960 /* App */,
+				D71699C728B602480092672D /* Extras */,
 				D7F56E4A28B361B400B58960 /* LaunchScreen.storyboard */,
 				D7F56E4D28B361B400B58960 /* Info.plist */,
 			);
 			path = Billionaires;
+			sourceTree = "<group>";
+		};
+		D7F56E5328B3626D00B58960 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E3F28B361AD00B58960 /* AppDelegate.swift */,
+				D7F56E4128B361AD00B58960 /* SceneDelegate.swift */,
+				D7F56E4828B361B400B58960 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D7F56E5428B3628C00B58960 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E6A28B3985200B58960 /* cell */,
+				D7F56E5D28B362F600B58960 /* ViewModel */,
+				D7F56E5C28B362EF00B58960 /* Controller */,
+				D7F56E5B28B362EB00B58960 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D7F56E5528B3629E00B58960 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E5728B362BC00B58960 /* NetworkRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D7F56E5628B362A900B58960 /* ObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E5928B362D600B58960 /* ObservableObject.swift */,
+			);
+			path = ObservableObject;
+			sourceTree = "<group>";
+		};
+		D7F56E5B28B362EB00B58960 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E5F28B3633E00B58960 /* HomeViewController.xib */,
+				D7F56E6228B3636000B58960 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7F56E5C28B362EF00B58960 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E5E28B3633E00B58960 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7F56E5D28B362F600B58960 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E6428B363AD00B58960 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D7F56E6628B3673D00B58960 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E6828B369F300B58960 /* BillionairesDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7F56E6A28B3985200B58960 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				D71699CF28B760000092672D /* TableViewCell */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		D7F56E6F28B3A58B00B58960 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E7328B3A5C000B58960 /* Cell */,
+				D7F56E7228B3A5BB00B58960 /* ViewModel */,
+				D7F56E7028B3A59A00B58960 /* Controller */,
+				D7F56E7128B3A5AB00B58960 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D7F56E7028B3A59A00B58960 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E7528B3A5D900B58960 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7F56E7128B3A5AB00B58960 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E7628B3A5D900B58960 /* DetailViewController.xib */,
+				D7F56E7928B3A5E700B58960 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7F56E7228B3A5BB00B58960 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7F56E7B28B3A6DE00B58960 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D7F56E7328B3A5C000B58960 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D71699CA28B756960092672D /* CollectionViewCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F2B3363D76001A88E0D1834F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EE8C209FD1A49657C2D51FA /* Pods_Billionaires.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7F56E5028B361B400B58960 /* Build configuration list for PBXNativeTarget "Billionaires" */;
 			buildPhases = (
+				B9C8D76B7D72712011A5888E /* [CP] Check Pods Manifest.lock */,
 				D7F56E3828B361AD00B58960 /* Sources */,
 				D7F56E3928B361AD00B58960 /* Frameworks */,
 				D7F56E3A28B361AD00B58960 /* Resources */,
+				F49BFD63CE64B90327064668 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +331,82 @@
 			files = (
 				D7F56E4C28B361B400B58960 /* LaunchScreen.storyboard in Resources */,
 				D7F56E4928B361B400B58960 /* Assets.xcassets in Resources */,
-				D7F56E4728B361AD00B58960 /* Main.storyboard in Resources */,
+				D7F56E7828B3A5D900B58960 /* DetailViewController.xib in Resources */,
+				D7F56E6E28B3989100B58960 /* PersonsTableViewCell.xib in Resources */,
+				D7F56E6128B3633E00B58960 /* HomeViewController.xib in Resources */,
+				D71699CE28B756BF0092672D /* AssetsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9C8D76B7D72712011A5888E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Billionaires-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F49BFD63CE64B90327064668 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Billionaires/Pods-Billionaires-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Billionaires/Pods-Billionaires-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Billionaires/Pods-Billionaires-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7F56E3828B361AD00B58960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F56E4428B361AD00B58960 /* ViewController.swift in Sources */,
+				D7F56E5A28B362D600B58960 /* ObservableObject.swift in Sources */,
+				D71699CD28B756BF0092672D /* AssetsCollectionViewCell.swift in Sources */,
+				D7F56E6D28B3989100B58960 /* PersonsTableViewCell.swift in Sources */,
+				D7F56E6328B3636000B58960 /* HomeView.swift in Sources */,
+				D7F56E6528B363AD00B58960 /* HomeViewModel.swift in Sources */,
 				D7F56E4028B361AD00B58960 /* AppDelegate.swift in Sources */,
+				D7F56E7A28B3A5E700B58960 /* DetailView.swift in Sources */,
+				D7F56E5828B362BC00B58960 /* NetworkRequest.swift in Sources */,
+				D7F56E7C28B3A6DE00B58960 /* DetailViewModel.swift in Sources */,
 				D7F56E4228B361AD00B58960 /* SceneDelegate.swift in Sources */,
+				D7F56E7728B3A5D900B58960 /* DetailViewController.swift in Sources */,
+				D71699C928B602650092672D /* Helper.swift in Sources */,
+				D7F56E6928B369F300B58960 /* BillionairesDataModel.swift in Sources */,
+				D7F56E6028B3633E00B58960 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7F56E4528B361AD00B58960 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7F56E4628B361AD00B58960 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7F56E4A28B361B400B58960 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +536,7 @@
 		};
 		D7F56E5128B361B400B58960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E20E51B2C9AFCD83484E4F /* Pods-Billionaires.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,9 +547,9 @@
 				INFOPLIST_FILE = Billionaires/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +565,7 @@
 		};
 		D7F56E5228B361B400B58960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DEB5515690C385C3BDFF84 /* Pods-Billionaires.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,9 +576,9 @@
 				INFOPLIST_FILE = Billionaires/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
